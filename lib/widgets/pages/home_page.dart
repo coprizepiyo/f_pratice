@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import './container_page.dart';
+import 'container_page.dart';
+import 'image_page.dart';
 
 class HomePage extends StatelessWidget {
   final demoList= [
@@ -9,7 +10,7 @@ class HomePage extends StatelessWidget {
     },
      {
       'title': '图片',
-      'page': ContainerPage(),
+      'page': ImagePage(),
     },
   ];
 
